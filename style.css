@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Original Surfer', cursive;
+}
+body{
+    height: 100%;
+    background-color: #111;
+}
+.styling{
+    color: red;
+}
+.styling_1{
+    color: red;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 2rem 0 2rem;
+    text-align: center;
+    color: lime;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+.addButton{
+    height: 50px;
+    width:50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color:rgba(255, 0, 0, 0.89);
+    color:white;
+    margin:0.25rem;
+    cursor: pointer;
+}
+.addButton:hover{
+    background-color: rgb(243, 239, 14);
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.74);
+}
+.item-input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 400px;
+    font-size: 1.4rem;
+}
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.50rem;
+    background: none;
+    outline: none;
+    color: yellow;
+    border: none;
+}
+.removeButton{
+    font-size: 1.4rem;
+    
+    background: none;
+    outline: none;
+    color: red;
+    border: none;
+}
+
+
+.date{
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+@media(max-width:550px){
+    .input-div .input{
+        width:350px;
+    }
+    .item-input{
+        width: 200px;
+    }
+    .editButton{
+        font-size: 20px;
+    }
+    .removeButton{
+        font-size: 18px;
+    }
+}
+@media(max-width:370px){
+    .item-input{
+        width:150px;
+    }
+    .input-div .input{
+        width:250px;
+    }
+    .editButton{
+        font-size: 15px;
+    }
+    .removeButton{
+        font-size: 15px;
+    }
+    .date{
+        font-size: 1.2rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+   
+}
